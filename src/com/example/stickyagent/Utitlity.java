@@ -8,8 +8,8 @@ import android.app.Application;
 class Group{
 		public static int GroupId;
 		public static int UserId;
-		public static int EmpId1;
-		public static int EmpId2;
+		public static int limit=3;
+		public static ArrayList<Integer> EmployeeList;
 		public static float Rating;
 }
 
