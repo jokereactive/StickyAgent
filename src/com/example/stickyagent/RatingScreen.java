@@ -27,6 +27,7 @@ public class RatingScreen extends Activity{
 		for(int i=0;i<(StickyAgent.GroupRating.get(getIntent().getIntExtra("GroupId",0)).EmployeeList).size();i++){
 			StickyAgent.EmployeeRating.get(StickyAgent.GroupRating.get(getIntent().getIntExtra("GroupId",0)).EmployeeList.get(i)).add(ratingvalue);
 		}
+		finish();
 		/*
 		 * Code to add rating to the employee
 		 */
