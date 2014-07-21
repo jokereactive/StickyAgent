@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_tv_questions_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/ll_b_delete_questions_list_item"
+        android:paddingLeft="10dp"
+       
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_questions_list_item"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+             android:gravity="center_vertical"
+             android:textSize="30sp"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_b_delete_questions_list_item"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        
+      
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/b_delete_questions_list_item"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="-"
+            android:textSize="30sp"
+            android:textStyle="bold"
+              android:gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:background="@null"
+             />
+
+    </LinearLayout>
+
+</RelativeLayout>
